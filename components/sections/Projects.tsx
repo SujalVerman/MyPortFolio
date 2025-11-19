@@ -7,7 +7,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 interface ProjectsProps {
   id: string;
-}
+} 
 
 const projects = [
   {
