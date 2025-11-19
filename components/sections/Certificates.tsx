@@ -52,7 +52,7 @@ const certificates: Certificate[] = [
     name: "Postman API Fundamentals Student Expert",
     organization: "Postman",
     issueDate: "Sep 2024",
-    image: "/postman_certificate2.png",
+    image: "/postman_certificate2.jpg",
     credentialLink: "",
     badge: "Verified",
   },
