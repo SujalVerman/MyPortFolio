@@ -43,7 +43,7 @@ const certificates: Certificate[] = [
     name: "JavaScript Bootcamp",
     organization: "LetsUpgrade",
     issueDate: "Aug 2024",
-    image: "/js_Lu.png",
+    image: "/Js_Lu.png",
     credentialLink: "",
     badge: "Bootcamp",
   },
