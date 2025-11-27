@@ -19,6 +19,7 @@ const tabs = [
   { id: "experience", label: "Experience", path: "/experience" },
   { id: "education", label: "Education", path: "/education" },
   { id: "certificates", label: "Certificates", path: "/certificates" },
+  { id: "achievement", label: "Achievement", path: "/achievement" },
   { id: "contact", label: "Contact", path: "/contact" },
 ];
 

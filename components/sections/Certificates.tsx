@@ -86,9 +86,9 @@ const certificates: Certificate[] = [
 ];
 
 const badgeColors = {
-  Verified: "bg-green-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-green-700 dark:text-green-400",
-  Bootcamp: "bg-purple-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-purple-700 dark:text-purple-400",
-  Cloud: "bg-blue-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-blue-700 dark:text-blue-400",
+  Verified: "bg-green-100 border dark:bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-green-700 dark:text-green-400",
+  Bootcamp: "bg-purple-100 border dark:bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-purple-700 dark:text-purple-400",
+  Cloud: "bg-blue-100 border dark:bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-blue-700 dark:text-blue-400",
 };
 
 export default function Certificates({ id }: CertificateProps) {
@@ -124,7 +124,7 @@ export default function Certificates({ id }: CertificateProps) {
               key={certificate.id}
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
               whileHover={{ y: -8, scale: 1.02 }}
               className="group relative"
             >
