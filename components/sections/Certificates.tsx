@@ -86,9 +86,9 @@ const certificates: Certificate[] = [
 ];
 
 const badgeColors = {
-  Verified: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400",
-  Bootcamp: "bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400",
-  Cloud: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400",
+  Verified: "bg-green-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-green-700 dark:text-green-400",
+  Bootcamp: "bg-purple-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-purple-700 dark:text-purple-400",
+  Cloud: "bg-blue-100 border bg-black dark:border-purple-400/50 shadow-[0_0_15px_rgba(59,130,246,0.5)] text-blue-700 dark:text-blue-400",
 };
 
 export default function Certificates({ id }: CertificateProps) {
